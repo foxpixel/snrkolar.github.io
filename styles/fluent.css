@@ -849,10 +849,10 @@ th:hover{opacity: 0.8;}
 
 .dialogue_box{
     z-index: 12;
-    position: fixed;
-    top:40%;
+    position: relative;
+    top:-50vh;
     left: 40%;
-    min-width: 350px;
+    width: 350px;
     min-height: 150px;
     border:2px solid rgba(125, 125, 125, 0.9);
     display: none;
@@ -870,10 +870,10 @@ th:hover{opacity: 0.8;}
 }
 .dialogue_content{
     padding: 5px;
-    background: #FFF;
-    color: #1e1e1e;
+    background: #0e0e0e;
+    color: #fcfcfc;
     min-height: 150px;
-    min-width: 350px;
+    width: 346px;
 }
 /*Overlay*/
 img{width: 100%; height: auto;}
